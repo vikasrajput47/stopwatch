@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+p{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.stopwatch {
+   
+         box-shadow: 0px 2px 9px 1px #d7d5d6;
+        width: 18rem;
+        height: 26rem;
+        border-radius: 0.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+#milliseconds{
+    font-weight: bold;
+    font-size: 3rem;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 2px 9px 1px #3e3d3e;
+}
+img{
+    height: 8rem;
+}
